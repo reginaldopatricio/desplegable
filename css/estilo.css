@@ -1,0 +1,22 @@
+/*VARIABLES*/
+
+:root{
+    --colorverdeBase: #59D9B5;
+    --colorverdeOscuro: #01402E;
+    --colorverdeClaro: #B3F2E0;
+    --colorverdeMuyClaro: #D0F2E9;
+    --colorgrisFondo: #FAFCFE;
+    /*Margenes*/
+    --margen_paddingGeneral: 50px;
+    --margen_paddingBotones:8px 10px;
+    --margen_separacionSections: 80px;
+    --margen_CurvaBoton:20px;
+    /*Fuentes*/
+    --fuente_base:Arial;
+    --fuente_Base_Tamayo: 1rem;
+    --fuente_H1:2rem;
+    --fuente_H2:1.5rem;
+    --fuente_H3:1.3rem;
+    --fuenteBotones: var(--fuente_H3);
+    --fuente_Parrafo:var(--fuente_Base_Tamayo);
+}
