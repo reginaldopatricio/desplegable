@@ -20,3 +20,24 @@
     --fuenteBotones: var(--fuente_H3);
     --fuente_Parrafo:var(--fuente_Base_Tamayo);
 }
+
+input{
+    display: none;
+}
+
+.desplegable{
+    display: none;
+    background-color: var(--colorverdeBase);
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+input:checked ~ .desplegable{
+    display: block;
+    
+}
+
+svg{
+    width: 32px;
+}
