@@ -1,3 +1,11 @@
+html{
+    font-size: 16px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
 /*VARIABLES*/
 
 :root{
@@ -7,7 +15,7 @@
     --colorverdeMuyClaro: #D0F2E9;
     --colorgrisFondo: #FAFCFE;
     /*Margenes*/
-    --margen_paddingGeneral: 50px;
+    --margen_paddingGeneral: 30px;
     --margen_paddingBotones:8px 10px;
     --margen_separacionSections: 80px;
     --margen_CurvaBoton:20px;
@@ -21,8 +29,17 @@
     --fuente_Parrafo:var(--fuente_Base_Tamayo);
 }
 
+/* ********************************************************* */
+/* ********************************************************* */
+
 input{
     display: none;
+}
+label{
+    position: absolute;
+    top: var(--margen_paddingGeneral) ;
+    left: var(--margen_paddingGeneral);
+    z-index: 5;
 }
 
 .desplegable{
@@ -31,10 +48,18 @@ input{
     width: 100vw;
     height: 100vh;
     color: white;
+    font-size: var(--fuente_H1);
+    
+    
 }
 
 input:checked ~ .desplegable{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    
     
 }
 
