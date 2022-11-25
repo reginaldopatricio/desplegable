@@ -34,11 +34,16 @@ html{
 
 /* ********************************************************* */
 /* ********************************************************* */
-body{
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
+/*contenedor*/
+.container{
+    
+}
+/*header*/
+header{
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;   
 }
 
 .logo{
@@ -64,8 +69,7 @@ label{
     font-size: var(--fuente_H1);
     list-style: none;
     padding: calc(var(--margen_paddingGeneral)*6) var(--margen_paddingGeneral) ;
-      
-     
+        
 }
 
 input:checked ~ .desplegable{
@@ -83,6 +87,36 @@ svg{
 .inicio{
     margin-right: 50px;
 }
+
+/*MAIN*/
+main{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.logotipo{
+    display: flex;
+    align-items: center;
+}
+
+.hexagono{
+    background: url(../imagenes/hexagon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 45px;
+    width: 45px;
+    
+}
+
+
+
+
+
 
 
 
