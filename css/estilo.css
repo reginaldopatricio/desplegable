@@ -36,7 +36,7 @@ html{
 /* ********************************************************* */
 /*contenedor*/
 .container{
-    
+    background-color: var(--colorverdeBase);
 }
 /*header*/
 header{
@@ -63,12 +63,13 @@ label{
 
 .desplegable{
     display: none;
-    background-color: var(--colorverdeBase);
+    background-color: var(--colorverdeOscuro);
     width: 100vw;
     height: 100vh;
     font-size: var(--fuente_H1);
     list-style: none;
     padding: calc(var(--margen_paddingGeneral)*6) var(--margen_paddingGeneral) ;
+    color: var(--colorgrisFondo);
         
 }
 
@@ -94,6 +95,7 @@ main{
     height: 100vh;
     justify-content: center;
     align-items: center;
+    color: var(--colorgrisFondo);
     
     
 }
