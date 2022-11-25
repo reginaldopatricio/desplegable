@@ -72,3 +72,14 @@ svg{
 .inicio{
     margin-right: 50px;
 }
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: calc(var(--margen_paddingGeneral)*6);
+}
+.logo{
+    width: 300px;
+    height: 300px;
+}
