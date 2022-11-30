@@ -51,7 +51,7 @@ header{
     width: 70vw;   
 }
 
-input{
+.despliega{
     display: none;
 }
 label{
@@ -92,17 +92,21 @@ svg{
 /*MAIN*/
 main{
     display: flex;
-    height: 100vh;
+    height: 93vh;
     justify-content: center;
     align-items: center;
     color: var(--colorgrisFondo);
-    
+    flex-direction: column;
+    padding: 0px 0 60px 0;
+   
     
 }
 
 .logotipo{
     display: flex;
     align-items: center;
+    
+    
 }
 
 .hexagono{
@@ -114,6 +118,50 @@ main{
     width: 45px;
     
 }
+
+.parafos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.you{
+    margin-bottom: 90px;
+}
+.input, .input2{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50px;
+}
+.input{
+    background-color:var(--colorverdeOscuro);
+}
+.input2{
+
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+/*la parte del login*/
 
 
 
