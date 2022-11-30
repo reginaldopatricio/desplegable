@@ -17,6 +17,9 @@ html{
     --colorverdeClaro: #B3F2E0;
     --colorverdeMuyClaro: #D0F2E9;
     --colorgrisFondo: #FAFCFE;
+    --colorNegroMarkest: black;
+    --colorgrisletra: gray;
+
     /*Margenes*/
     --margen_paddingGeneral: 30px;
     --margen_paddingBotones:8px 10px;
@@ -36,7 +39,11 @@ html{
 /* ********************************************************* */
 /*contenedor*/
 .container{
-    background-color: var(--colorverdeBase);
+    background-color: var(--colorgrisFondo);
+    padding: 10px;
+    
+    
+    
 }
 /*header*/
 header{
@@ -92,12 +99,12 @@ svg{
 /*MAIN*/
 main{
     display: flex;
-    height: 93vh;
+    margin-top: 90px;
     justify-content: center;
     align-items: center;
-    color: var(--colorgrisFondo);
     flex-direction: column;
     padding: 0px 0 60px 0;
+    
    
     
 }
@@ -105,12 +112,13 @@ main{
 .logotipo{
     display: flex;
     align-items: center;
-    
+    color: var(--colorNegroMarkest);
     
 }
 
+
 .hexagono{
-    background: url(../imagenes/hexagon.svg);
+    background: url(../imagenes/hexagonoGreen.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -124,22 +132,33 @@ main{
     align-items: center;
     flex-direction: column;
     margin-bottom: 50px;
+    color: var(--colorverdeBase);
 }
 
 .you{
     margin-bottom: 90px;
+    color: var(--colorgrisletra);
 }
 .input, .input2{
     width: 300px;
     height: 40px;
     text-align: center;
     border-radius: 50px;
+    border: none;
 }
 .input{
-    background-color:var(--colorverdeOscuro);
+    background-color: var(--colorverdeBase);
+   
 }
 .input2{
-
+    background-color: var(--colorverdeClaro);
+    color: var(--colorNegroMarkest);
+}
+.input::placeholder{
+    color: var(--colorgrisFondo);
+}
+.input2::placeholder{
+    color: var(--colorNegroMarkest);
 }
 
 .form{
@@ -152,14 +171,23 @@ a{
     display: flex;
     justify-content: center;
     margin-top: 30px;
+    text-decoration: none;
+    color: var(--colorverdeBase);
+    
 }
 
 .footer{
     display: flex;
     align-items: center;
     flex-direction: column;
+    color: var(--colorgrisletra);
     
     
+}
+
+.h5{
+    padding-top: 30px;
+    margin-bottom: 32px;
 }
 /*la parte del login*/
 
