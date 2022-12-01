@@ -1,8 +1,12 @@
 # desplegable
 
+refactorización by Luz Maria Sabina
+------------------------------------
+
 ARCHIVOS y CARPETAS
 -falta archivos
 -falta carpetas
-COMPROBACON DE IMAGENES
+
+COMPROBACIÓN DE IMAGENES
 -falta imagenes
 
