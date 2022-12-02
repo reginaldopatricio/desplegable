@@ -10,3 +10,9 @@ ARCHIVOS y CARPETAS
 COMPROBACIÓN DE IMAGENES
 -falta imagenes
 
+COMENTARIOS
+- aceptables
+
+SEO
+-falta el seo de la impresión
+
