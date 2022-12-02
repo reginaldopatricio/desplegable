@@ -186,6 +186,11 @@ a{
     padding-top: 30px;
     margin-bottom: 32px;
 }
+
+a{
+    text-decoration: none;
+    color: white;
+}
 /*la parte del login*/
 
 

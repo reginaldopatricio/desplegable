@@ -16,3 +16,5 @@ COMENTARIOS
 SEO
 -falta el seo de la impresión
 
+LINKS
+-faltaba entrelazar las páginas
